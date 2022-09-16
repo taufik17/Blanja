@@ -1,9 +1,35 @@
 .loginText {
-    font-size: larger;
-    font-weight: 600;
-    margin-bottom: 40px;
+  font-size: larger;
+  font-weight: 600;
+  margin-bottom: 40px;
 }
 
-/* .nav {
+.nav1 {
+  background: none;
+  border: 1px solid #9b9b9b !important;
+  border-radius: 10px 0px 0px 10px !important;
+}
+
+.nav2 {
+  background: none;
+  border: 1px solid #9b9b9b !important;
+  border-radius: 0px 10px 10px 0px !important;
+}
+
+.textRed {
+    color: #DB3022;
+}
+
+.textRed:hover {
+    color: #c41c0d !important;
+}
+
+.btnLogin {
+    border-radius: 25px;
+    border: none;
     background-color: #DB3022;
-} */
+}
+
+.btnLogin:hover {
+    background-color: #c41c0d !important;
+}
