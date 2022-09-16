@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Nav, Navbar, Row, Tab } from "react-bootstrap";
-import LoginPage from "../../components/organisms/login";
+import LoginSeller from "../../components/organisms/seller/login";
+import LoginCustomer from "../../components/organisms/customer/login";
 import Image from "next/image";
 import LoginStyle from "../../styles/login.module.css";
 
@@ -27,10 +28,10 @@ function Login() {
         </Row>
         <Tab.Content>
           <Tab.Pane eventKey="customer">
-            <LoginPage />
+            <LoginCustomer />
           </Tab.Pane>
           <Tab.Pane eventKey="seller">
-            <LoginPage />
+            <LoginSeller />
           </Tab.Pane>
         </Tab.Content>
       </Tab.Container>

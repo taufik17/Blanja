@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { Button, Col, Container, Form, Nav, Row } from "react-bootstrap";
-import StyleLogin from "../../styles/login.module.css";
-import FormInput from "../atoms/inputText";
+import StyleLogin from "../../../styles/login.module.css";
+import FormInput from "../../atoms/inputText";
 
 function Login() {
   return (
@@ -29,7 +29,7 @@ function Login() {
 
               <Nav className="flex justify-content-center pt-4">
                 Don{"'"}t have a Tokopedia account?
-                <Link href="/auth/register" passHref>
+                <Link href="/auth/register/seller" passHref>
                   <a className={`${StyleLogin.textRed} rmdecoration px-1`}>
                     Register
                   </a>
