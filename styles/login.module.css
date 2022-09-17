@@ -33,3 +33,13 @@
 .btnLogin:hover {
     background-color: #c41c0d !important;
 }
+
+.card {
+  border-radius: 20px !important;
+  border: none !important;
+}
+
+.cardFooter {
+  background-color: #DB3022;
+  border-radius: 0px 0px 20px 20px !important;
+}

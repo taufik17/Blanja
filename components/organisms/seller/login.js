@@ -15,7 +15,7 @@ function Login() {
               <FormInput size="md" type="password" placeholder="Password" />
               
               <Nav className="justify-content-end">
-                <Link href="/auth/forgotpassword" passHref>
+                <Link href="/auth/reqresetpass" passHref>
                   <a className="rmdecoration">
                     <p className={StyleLogin.textRed}>Forgot Password?</p>
                   </a>
@@ -28,7 +28,7 @@ function Login() {
               </div>
 
               <Nav className="flex justify-content-center pt-4">
-                Don{"'"}t have a Tokopedia account?
+                Don{"'"}t have a Blanja account?
                 <Link href="/auth/register/seller" passHref>
                   <a className={`${StyleLogin.textRed} rmdecoration px-1`}>
                     Register
