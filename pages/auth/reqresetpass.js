@@ -3,6 +3,7 @@ import React from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import StyleLogin from "../../styles/login.module.css";
 import Link from "next/link";
+import Head from "next/head";
 
 function Reqresetpass() {
   React.useEffect(() => {
@@ -13,6 +14,10 @@ function Reqresetpass() {
   });
   return (
     <>
+      <Head>
+        <title>Blanja | Request Forgot Password</title>
+        <link rel="icon" href="/favicon.svg" />
+      </Head>
       <Container>
         <Row className="pt-5">
           <Col md={{ span: 6, offset: 3 }}>

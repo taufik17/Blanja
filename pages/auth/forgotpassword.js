@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -8,6 +9,10 @@ import StyleLogin from "../../styles/login.module.css";
 function ForgotPassword() {
   return (
     <>
+      <Head>
+        <title>Blanja | Forgot Password</title>
+        <link rel="icon" href="/favicon.svg" />
+      </Head>
       <Container>
         <Row className="pt-5">
           <Col md={{ span: 6, offset: 3 }} class>

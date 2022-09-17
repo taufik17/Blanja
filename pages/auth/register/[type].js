@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useRouter } from "next/router";
 import { Col, Image, Nav, Row, Tab } from "react-bootstrap";
 import RegisterCustomer from "../../../components/organisms/customer/register";
@@ -10,6 +11,10 @@ const Post = () => {
 
   return (
     <>
+      <Head>
+        <title>Blanja | Register</title>
+        <link rel="icon" href="/favicon.svg" />
+      </Head>
       <Tab.Container id="left-tabs-example" defaultActiveKey={type}>
         <Row className="pt-3">
           <Col md={{ span: 6, offset: 3 }} class>
