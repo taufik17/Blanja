@@ -11,27 +11,24 @@ function Register() {
         <Row className="pt-5">
           <Col md={{ span: 6, offset: 3 }} class>
             <Form>
-              <FormInput size="lg" type="text" placeholder="Email" />
-              <FormInput size="lg" type="password" placeholder="Password" />
+              <FormInput size="md" type="text" placeholder="Name" />
+              <FormInput size="md" type="email" placeholder="Email" />
+              <FormInput size="md" type="text" placeholder="Phone number" />
+              <FormInput size="md" type="text" placeholder="Store name" />
+              <FormInput size="md" type="password" placeholder="Password" />
               
-              <Nav className="justify-content-end">
-                <Link href="/auth/forgotpassword" passHref>
-                  <a className="rmdecoration">
-                    <p className={StyleLogin.textRed}>Forgot Password?</p>
-                  </a>
-                </Link>
-              </Nav>
+              
               <div className="d-grid gap-2">
-                <Button className={StyleLogin.btnLogin} size="lg">
-                  Login
+                <Button className={StyleLogin.btnLogin} size="md">
+                  Register
                 </Button>
               </div>
 
-              <Nav className="flex justify-content-center pt-4">
-                Don{"'"}t have a Tokopedia account?
-                <Link href="/auth/register" passHref>
+              <Nav className="flex justify-content-center pt-4 mb-5">
+                Already have a Blanja account? 
+                <Link href="/auth/login" passHref>
                   <a className={`${StyleLogin.textRed} rmdecoration px-1`}>
-                    Register
+                    Login
                   </a>
                 </Link>
               </Nav>

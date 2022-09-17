@@ -16,7 +16,7 @@ const Post = () => {
             <div className="text-center">
               <Image src="/image/logo.svg" alt="Logo" width={135} height={90} />
               <p className={`${LoginStyle.loginText} p-0`}>
-                Please login with your account
+                Please sign up with your account
               </p>
             </div>
 
@@ -24,7 +24,7 @@ const Post = () => {
               <Nav.Item>
                 <Nav.Link
                   eventKey="customer"
-                  className={`${LoginStyle.nav1} py-3 px-5`}
+                  className={`${LoginStyle.nav1} py-2 px-4`}
                 >
                   Customer
                 </Nav.Link>
@@ -32,7 +32,7 @@ const Post = () => {
               <Nav.Item>
                 <Nav.Link
                   eventKey="seller"
-                  className={`${LoginStyle.nav2} py-3 px-5`}
+                  className={`${LoginStyle.nav2} py-2 px-4`}
                 >
                   Seller
                 </Nav.Link>

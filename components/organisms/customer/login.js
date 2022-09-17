@@ -11,8 +11,8 @@ function Login() {
         <Row className="pt-5">
           <Col md={{ span: 6, offset: 3 }} class>
             <Form>
-              <FormInput size="lg" type="text" placeholder="Email" />
-              <FormInput size="lg" type="password" placeholder="Password" />
+              <FormInput size="md" type="email" placeholder="Email" />
+              <FormInput size="md" type="password" placeholder="Password" />
               
               <Nav className="justify-content-end">
                 <Link href="/auth/forgotpassword" passHref>
@@ -22,7 +22,7 @@ function Login() {
                 </Link>
               </Nav>
               <div className="d-grid gap-2">
-                <Button className={StyleLogin.btnLogin} size="lg">
+                <Button className={StyleLogin.btnLogin} size="md">
                   Login
                 </Button>
               </div>

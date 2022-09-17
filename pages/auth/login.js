@@ -18,10 +18,10 @@ function Login() {
 
             <Nav variant="pills" className="flex justify-content-center">
               <Nav.Item>
-                <Nav.Link eventKey="customer" className={`${LoginStyle.nav1} py-3 px-5`}>Customer</Nav.Link>
+                <Nav.Link eventKey="customer" className={`${LoginStyle.nav1} py-2 px-4`}>Customer</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="seller" className={`${LoginStyle.nav2} py-3 px-5`}>Seller</Nav.Link>
+                <Nav.Link eventKey="seller" className={`${LoginStyle.nav2} py-2 px-4`}>Seller</Nav.Link>
               </Nav.Item>
             </Nav>
           </Col>
