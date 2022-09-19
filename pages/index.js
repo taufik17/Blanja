@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Container } from "react-bootstrap";
 import Navbar from "../components/organisms/navbar";
 import CarouselTrend from "../components/organisms/carouseltrend";
+import CarouselCategory from "../components/organisms/carouselcategory";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       <Container className="pt-4">
         <CarouselTrend />
+        <CarouselCategory />        
       </Container>
       <footer class="footer mt-5 py-3 bg-light">
         <div class="container">
