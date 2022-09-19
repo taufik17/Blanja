@@ -20,7 +20,7 @@ function Carouseltrend() {
     <>
       <Swiper
         slidesPerView={3}
-        spaceBetween={40}
+        spaceBetween={8}
         freeMode={true}
         navigation={true}
         mousewheel={true}
