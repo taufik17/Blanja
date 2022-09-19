@@ -34,6 +34,18 @@
     background-color: #c41c0d !important;
 }
 
+.btnRegister {
+    border-radius: 25px;
+    border: 1px #9b9b9b solid;
+    color: #9b9b9b;
+    background-color: white;
+}
+
+.btnRegister:hover {
+    background-color: #DB3022 !important;
+    border: 1px #DB3022 solid !important;
+}
+
 .card {
   border-radius: 20px !important;
   border: none !important;

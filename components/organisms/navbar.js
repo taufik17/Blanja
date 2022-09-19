@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Button, Container, Form, Nav, Navbar } from "react-bootstrap";
 import { FiSearch, FiFilter, FiShoppingCart } from "react-icons/fi";
 import HomeStyle from "../../styles/Home.module.css";
+import StyleLogin from "../../styles/login.module.css";
 
 function NavMenu() {
   return (
@@ -30,9 +31,17 @@ function NavMenu() {
               <FiFilter />
             </Button>
           </Nav>
-          <FiShoppingCart className="mx-3"/>
-          <Button className="mx-2">Login</Button>
-          <Button className="mx-2">Signup</Button>
+          <FiShoppingCart className="mx-3" />
+          <Link href="/auth/login" passHref>
+            <Button className={`${StyleLogin.btnLogin} mx-2 px-4`}>
+              Login
+            </Button>
+          </Link>
+          <Link href="/auth/register/customer" passHref>
+            <Button className={`${StyleLogin.btnRegister} mx-2 px-4`}>
+              Signup
+            </Button>
+          </Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>
