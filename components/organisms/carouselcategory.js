@@ -7,11 +7,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
-import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { FreeMode, Pagination } from "swiper";
+import { FreeMode } from "swiper";
 import { Navigation, Mousewheel, Keyboard } from "swiper";
 
 
@@ -28,11 +27,8 @@ function Carouselcategory() {
         navigation={true}
         mousewheel={true}
         keyboard={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Navigation, FreeMode, Pagination, Mousewheel, Keyboard]}
-        className="mySwiper"
+        modules={[Navigation, FreeMode, Mousewheel, Keyboard]}
+        className="mySwiper pt-3"
       >
         <SwiperSlide>
         <Image src="/image/gambar1.png" alt="Logo" width={200} height={200} className={StyleHome.imgCarousel}/>
