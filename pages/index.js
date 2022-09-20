@@ -19,7 +19,7 @@ export default function Home() {
         <CarouselTrend />
         <CarouselCategory />      
         <New />      
-        {/* <Popular /> */}
+        <Popular />
       </Container>
       <footer className="footer mt-5 py-3 bg-light">
         <div className="container">
