@@ -19,11 +19,11 @@ export default function Home() {
         <CarouselTrend />
         <CarouselCategory />      
         <New />      
-        <Popular />      
+        {/* <Popular /> */}
       </Container>
-      <footer class="footer mt-5 py-3 bg-light">
-        <div class="container">
-          <span class="text-muted">By FikDev.</span>
+      <footer className="footer mt-5 py-3 bg-light">
+        <div className="container">
+          <span className="text-muted">By FikDev.</span>
         </div>
       </footer>
     </>

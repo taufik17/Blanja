@@ -14,7 +14,6 @@ import "swiper/css/navigation";
 import { FreeMode, Pagination } from "swiper";
 import { Navigation, Mousewheel, Keyboard } from "swiper";
 
-
 function Carouseltrend() {
   return (
     <>
@@ -32,43 +31,118 @@ function Carouseltrend() {
         className="mySwiper"
       >
         <SwiperSlide>
-        <Image src="/image/gambar1.png" alt="Logo" width={350} height={120} className={StyleHome.imgCarousel}/>
+          <div className="card">
+            <Image
+              src="/image/gambar1.png"
+              alt="Logo"
+              width={350}
+              height={120}
+              className={StyleHome.imgCarousel}
+            />
+            <div className="card-img-overlay">
+              <h5 className="card-title text-white">Card title</h5>              
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-        <Image src="/image/gambar2.jpg" alt="Logo" width={350} height={120} className={StyleHome.imgCarousel}/>
+          <Image
+            src="/image/gambar2.jpg"
+            alt="Logo"
+            width={350}
+            height={120}
+            className={StyleHome.imgCarousel}
+          />
         </SwiperSlide>
         <SwiperSlide>
-        <Image src="/image/gambar3.jpg" alt="Logo" width={350} height={120} className={StyleHome.imgCarousel}/>
+          <Image
+            src="/image/gambar3.jpg"
+            alt="Logo"
+            width={350}
+            height={120}
+            className={StyleHome.imgCarousel}
+          />
         </SwiperSlide>
         <SwiperSlide>
-        <Image src="/image/gambar1.png" alt="Logo" width={350} height={120} className={StyleHome.imgCarousel}/>
+          <Image
+            src="/image/gambar1.png"
+            alt="Logo"
+            width={350}
+            height={120}
+            className={StyleHome.imgCarousel}
+          />
         </SwiperSlide>
         <SwiperSlide>
-        <Image src="/image/gambar2.jpg" alt="Logo" width={350} height={120} className={StyleHome.imgCarousel}/>
+          <Image
+            src="/image/gambar2.jpg"
+            alt="Logo"
+            width={350}
+            height={120}
+            className={StyleHome.imgCarousel}
+          />
         </SwiperSlide>
         <SwiperSlide>
-        <Image src="/image/gambar3.jpg" alt="Logo" width={350} height={120} className={StyleHome.imgCarousel}/>
+          <Image
+            src="/image/gambar3.jpg"
+            alt="Logo"
+            width={350}
+            height={120}
+            className={StyleHome.imgCarousel}
+          />
         </SwiperSlide>
         <SwiperSlide>
-        <Image src="/image/gambar1.png" alt="Logo" width={350} height={120} className={StyleHome.imgCarousel}/>
+          <Image
+            src="/image/gambar1.png"
+            alt="Logo"
+            width={350}
+            height={120}
+            className={StyleHome.imgCarousel}
+          />
         </SwiperSlide>
         <SwiperSlide>
-        <Image src="/image/gambar2.jpg" alt="Logo" width={350} height={120} className={StyleHome.imgCarousel}/>
+          <Image
+            src="/image/gambar2.jpg"
+            alt="Logo"
+            width={350}
+            height={120}
+            className={StyleHome.imgCarousel}
+          />
         </SwiperSlide>
         <SwiperSlide>
-        <Image src="/image/gambar3.jpg" alt="Logo" width={350} height={120} className={StyleHome.imgCarousel}/>
+          <Image
+            src="/image/gambar3.jpg"
+            alt="Logo"
+            width={350}
+            height={120}
+            className={StyleHome.imgCarousel}
+          />
         </SwiperSlide>
         <SwiperSlide>
-        <Image src="/image/gambar1.png" alt="Logo" width={350} height={120} className={StyleHome.imgCarousel}/>
+          <Image
+            src="/image/gambar1.png"
+            alt="Logo"
+            width={350}
+            height={120}
+            className={StyleHome.imgCarousel}
+          />
         </SwiperSlide>
         <SwiperSlide>
-        <Image src="/image/gambar2.jpg" alt="Logo" width={350} height={120} className={StyleHome.imgCarousel}/>
+          <Image
+            src="/image/gambar2.jpg"
+            alt="Logo"
+            width={350}
+            height={120}
+            className={StyleHome.imgCarousel}
+          />
         </SwiperSlide>
         <SwiperSlide>
-        <Image src="/image/gambar3.jpg" alt="Logo" width={350} height={120} className={StyleHome.imgCarousel}/>
+          <Image
+            src="/image/gambar3.jpg"
+            alt="Logo"
+            width={350}
+            height={120}
+            className={StyleHome.imgCarousel}
+          />
         </SwiperSlide>
-        
-        
       </Swiper>
     </>
   );
