@@ -37,112 +37,118 @@ function Carouseltrend() {
               alt="Logo"
               width={350}
               height={120}
-              className={StyleHome.imgCarousel}
             />
             <div className="card-img-overlay">
-              <h5 className="card-title text-white">Card title</h5>              
+              <h5 className="card-title text-white pt-4">Trends in 2020</h5>              
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            src="/image/gambar2.jpg"
-            alt="Logo"
-            width={350}
-            height={120}
-            className={StyleHome.imgCarousel}
-          />
+          <div className="card">
+            <Image
+              src="/image/gambar2.jpg"
+              alt="Logo"
+              width={350}
+              height={120}
+            />
+            <div className="card-img-overlay">
+              <h5 className="card-title text-white pt-4">Black edition</h5>              
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            src="/image/gambar3.jpg"
-            alt="Logo"
-            width={350}
-            height={120}
-            className={StyleHome.imgCarousel}
-          />
+          <div className="card">
+            <Image
+              src="/image/gambar3.jpg"
+              alt="Logo"
+              width={350}
+              height={120}
+            />
+            <div className="card-img-overlay">
+              <h5 className="card-title text-white pt-4">Trends in 2022</h5>              
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            src="/image/gambar1.png"
-            alt="Logo"
-            width={350}
-            height={120}
-            className={StyleHome.imgCarousel}
-          />
+          <div className="card">
+            <Image
+              src="/image/gambar1.png"
+              alt="Logo"
+              width={350}
+              height={120}
+            />
+            <div className="card-img-overlay">
+              <h5 className="card-title text-white pt-4">Trends in 2020</h5>              
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            src="/image/gambar2.jpg"
-            alt="Logo"
-            width={350}
-            height={120}
-            className={StyleHome.imgCarousel}
-          />
+          <div className="card">
+            <Image
+              src="/image/gambar2.jpg"
+              alt="Logo"
+              width={350}
+              height={120}
+            />
+            <div className="card-img-overlay">
+              <h5 className="card-title text-white pt-4">Black edition</h5>              
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            src="/image/gambar3.jpg"
-            alt="Logo"
-            width={350}
-            height={120}
-            className={StyleHome.imgCarousel}
-          />
+          <div className="card">
+            <Image
+              src="/image/gambar3.jpg"
+              alt="Logo"
+              width={350}
+              height={120}
+            />
+            <div className="card-img-overlay">
+              <h5 className="card-title text-white pt-4">Trends in 2022</h5>              
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            src="/image/gambar1.png"
-            alt="Logo"
-            width={350}
-            height={120}
-            className={StyleHome.imgCarousel}
-          />
+          <div className="card">
+            <Image
+              src="/image/gambar1.png"
+              alt="Logo"
+              width={350}
+              height={120}
+            />
+            <div className="card-img-overlay">
+              <h5 className="card-title text-white pt-4">Trends in 2020</h5>              
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            src="/image/gambar2.jpg"
-            alt="Logo"
-            width={350}
-            height={120}
-            className={StyleHome.imgCarousel}
-          />
+          <div className="card">
+            <Image
+              src="/image/gambar2.jpg"
+              alt="Logo"
+              width={350}
+              height={120}
+            />
+            <div className="card-img-overlay">
+              <h5 className="card-title text-white pt-4">Black edition</h5>              
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            src="/image/gambar3.jpg"
-            alt="Logo"
-            width={350}
-            height={120}
-            className={StyleHome.imgCarousel}
-          />
+          <div className="card">
+            <Image
+              src="/image/gambar3.jpg"
+              alt="Logo"
+              width={350}
+              height={120}
+            />
+            <div className="card-img-overlay">
+              <h5 className="card-title text-white pt-4">Trends in 2022</h5>              
+            </div>
+          </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src="/image/gambar1.png"
-            alt="Logo"
-            width={350}
-            height={120}
-            className={StyleHome.imgCarousel}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src="/image/gambar2.jpg"
-            alt="Logo"
-            width={350}
-            height={120}
-            className={StyleHome.imgCarousel}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src="/image/gambar3.jpg"
-            alt="Logo"
-            width={350}
-            height={120}
-            className={StyleHome.imgCarousel}
-          />
-        </SwiperSlide>
+        
+        
       </Swiper>
     </>
   );

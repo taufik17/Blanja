@@ -34,3 +34,28 @@
 .textRed {
   color: #DB3022;
 }
+
+.bgMaroon {
+  background-color: #CC0B04;
+}
+
+.bgBlue {
+  background-color: #1C3391;
+}
+
+.bgOrange {
+  background-color: #F67B02;
+}
+
+.bgPink {
+  background-color: #E31F51;
+}
+
+.bgCyan {
+  background-color: #57CD9E;
+}
+
+.imgCategory {
+  padding: 25px !important;
+  object-fit: contain !important;
+}
