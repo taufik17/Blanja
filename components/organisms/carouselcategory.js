@@ -31,7 +31,7 @@ function Carouselcategory() {
         <SwiperSlide>
           <div className={`${StyleHome.bgMaroon} card`}>
             <Image
-              src="/image/hiclipart 15.png"
+              src="/image/hiclipart15.png"
               alt="Logo"
               width={200}
               height={200}
@@ -45,7 +45,7 @@ function Carouselcategory() {
         <SwiperSlide>
           <div className={`${StyleHome.bgBlue} card`}>
             <Image
-              src="/image/hiclipart 21.png"
+              src="/image/hiclipart21.png"
               alt="Logo"
               width={200}
               height={200}
@@ -59,7 +59,7 @@ function Carouselcategory() {
         <SwiperSlide>
           <div className={`${StyleHome.bgOrange} card`}>
             <Image
-              src="/image/hiclipart 22.png"
+              src="/image/hiclipart22.png"
               alt="Logo"
               width={200}
               height={200}
@@ -73,7 +73,7 @@ function Carouselcategory() {
         <SwiperSlide>
           <div className={`${StyleHome.bgPink} card`}>
             <Image
-              src="/image/hiclipart 26.png"
+              src="/image/hiclipart26.png"
               alt="Logo"
               width={200}
               height={200}
@@ -87,7 +87,7 @@ function Carouselcategory() {
         <SwiperSlide>
         <div className={`${StyleHome.bgCyan} card`}>
             <Image
-              src="/image/hiclipart 34.png"
+              src="/image/hiclipart34.png"
               alt="Logo"
               width={200}
               height={200}
@@ -101,7 +101,7 @@ function Carouselcategory() {
         <SwiperSlide>
           <div className={`${StyleHome.bgMaroon} card`}>
             <Image
-              src="/image/hiclipart 15.png"
+              src="/image/hiclipart15.png"
               alt="Logo"
               width={200}
               height={200}
@@ -115,7 +115,7 @@ function Carouselcategory() {
         <SwiperSlide>
           <div className={`${StyleHome.bgBlue} card`}>
             <Image
-              src="/image/hiclipart 21.png"
+              src="/image/hiclipart21.png"
               alt="Logo"
               width={200}
               height={200}
@@ -129,7 +129,7 @@ function Carouselcategory() {
         <SwiperSlide>
           <div className={`${StyleHome.bgOrange} card`}>
             <Image
-              src="/image/hiclipart 22.png"
+              src="/image/hiclipart22.png"
               alt="Logo"
               width={200}
               height={200}
@@ -143,7 +143,7 @@ function Carouselcategory() {
         <SwiperSlide>
           <div className={`${StyleHome.bgPink} card`}>
             <Image
-              src="/image/hiclipart 26.png"
+              src="/image/hiclipart26.png"
               alt="Logo"
               width={200}
               height={200}
@@ -157,7 +157,7 @@ function Carouselcategory() {
         <SwiperSlide>
         <div className={`${StyleHome.bgCyan} card`}>
             <Image
-              src="/image/hiclipart 34.png"
+              src="/image/hiclipart34.png"
               alt="Logo"
               width={200}
               height={200}
