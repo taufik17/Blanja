@@ -66,3 +66,162 @@
   -webkit-box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 10%);
   -moz-box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 10%);
 }
+
+.modalHeader {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: unset !important;
+  border: none;
+  box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 10%);
+  -webkit-box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 10%);
+}
+
+.divContent {
+  border-bottom: 2px solid rgb(0 0 0 / 5%);
+}
+
+.btnClose {
+  margin: 2px !important;
+}
+
+.btnClose:hover {
+  background-color: unset !important;
+}
+
+.colorBlack {
+  background: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.colorRed {
+  background: #DB3022;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.colorGray {
+  background: #BEA9A9;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.colorBlue {
+  background: #151867;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.colorDarkYellow {
+  background: #E2BB8D;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.colorBlue {
+  background: #151867;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.colorWhite {
+  background: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 20%);
+  -webkit-box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 25%);
+  -moz-box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 25%);
+  cursor: pointer;
+}
+
+.activeBlack {
+  width: 40px;
+  height: 40px;
+  background:
+    radial-gradient(black 55%, transparent 60%),
+    radial-gradient(white 66%, transparent 70%),
+    linear-gradient(to top right, orange, deeppink);
+}
+
+.activeWhite {
+  width: 40px;
+  height: 40px;
+  background:
+    radial-gradient(white 55%, transparent 60%),
+    radial-gradient(white 66%, transparent 70%),
+    linear-gradient(to top right, orange, deeppink);
+}
+
+.activeRed {
+  width: 40px;
+  height: 40px;
+  background:
+    radial-gradient(#DB3022 55%, transparent 60%),
+    radial-gradient(white 66%, transparent 70%),
+    linear-gradient(to top right, orange, deeppink);
+}
+
+.activeGray {
+  width: 40px;
+  height: 40px;
+  background:
+    radial-gradient(#BEA9A9 55%, transparent 60%),
+    radial-gradient(white 66%, transparent 70%),
+    linear-gradient(to top right, orange, deeppink);
+}
+
+.activeYellow {
+  width: 40px;
+  height: 40px;
+  background:
+    radial-gradient(#E2BB8D 55%, transparent 60%),
+    radial-gradient(white 66%, transparent 70%),
+    linear-gradient(to top right, orange, deeppink);
+}
+
+.activeBlue {
+  width: 40px;
+  height: 40px;
+  background:
+    radial-gradient(#151867 55%, transparent 60%),
+    radial-gradient(white 66%, transparent 70%),
+    linear-gradient(to top right, orange, deeppink);
+}
+
+.activeSize {
+  border-radius: 8px !important;
+  border: none;
+  background-color: #DB3022 !important;
+  border: 1px solid #DB3022 !important;
+  color: white !important;
+}
+
+.activeSize:hover {
+  background-color: #c41c0d !important;
+}
+
+.btnSize {
+  border-radius: 8px;
+  border: 1px #9b9b9b solid;
+  color: #9b9b9b;
+  background-color: white;
+}
+
+.btnSize:hover {
+  background-color: #DB3022 !important;
+  border: 1px #DB3022 solid !important;
+}
