@@ -225,3 +225,7 @@
   background-color: #DB3022 !important;
   border: 1px #DB3022 solid !important;
 }
+
+.profile {
+  border-radius: 50%;
+}

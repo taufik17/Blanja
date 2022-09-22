@@ -13,7 +13,7 @@ function Login() {
             <Form>
               <FormInput size="md" type="email" placeholder="Email" />
               <FormInput size="md" type="password" placeholder="Password" />
-              
+
               <Nav className="justify-content-end">
                 <Link href="/auth/reqresetpass" passHref>
                   <a className="rmdecoration">
@@ -22,9 +22,11 @@ function Login() {
                 </Link>
               </Nav>
               <div className="d-grid gap-2">
-                <Button className={StyleLogin.btnLogin} size="md">
-                  Login
-                </Button>
+                <Link href="/home" passHref>
+                  <Button className={StyleLogin.btnLogin} size="md">
+                    Login
+                  </Button>
+                </Link>
               </div>
 
               <Nav className="flex justify-content-center pt-4">
