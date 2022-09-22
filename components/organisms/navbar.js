@@ -327,7 +327,7 @@ function NavMenu() {
             <option value="4">S{"'"}Oliver</option>
           </Form.Select>
         </Modal.Body>
-        <div class="modal-footer justify-content-center">
+        <div className="modal-footer justify-content-center">
           <Button
             className={`${StyleLogin.btnRegister} mx-2 px-5`}
             onClick={handleClose}
