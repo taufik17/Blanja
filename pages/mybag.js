@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { Container } from "react-bootstrap";
-import Navbar from "../components/organisms/navbar";
+import Navbar from "../components/organisms/navbarwithprofile";
 import MyBag from "../components/organisms/mybag";
 
 function Mybag() {

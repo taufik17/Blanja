@@ -58,7 +58,7 @@ function NavMenu() {
     <>
       <Navbar bg="light" expand="lg">
         <Container className="py-1">
-          <Link href="/" passHref>
+          <Link href="/home" passHref>
             <Navbar.Brand>
               <Image src="/image/logo.svg" alt="Logo" width={80} height={30} />
             </Navbar.Brand>
@@ -80,7 +80,11 @@ function NavMenu() {
                 <FiFilter />
               </Button>
             </Nav>
-            <FiShoppingCart className="mx-3" />
+            <Link href="/mybag" passHref>
+              <a>
+                <FiShoppingCart className="mx-3" />
+              </a>
+            </Link>
             <FiBell className="mx-3" />
             <FiMail className="mx-3" />
             <div className="">

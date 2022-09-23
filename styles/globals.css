@@ -125,3 +125,7 @@ a {
 .cursor {
   cursor: pointer;
 }
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: var(--bs-breadcrumb-divider, ">") !important; /* rtl: var(--bs-breadcrumb-divider, "/") */;
+}
