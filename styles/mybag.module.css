@@ -1,0 +1,16 @@
+.iconPlus {
+    background-color: white;
+    border: 1px whitesmoke solid;
+    color: black;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.iconMinus {
+    background-color: #D5D5D5;
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 50%;
+}
