@@ -16,11 +16,7 @@ function Mybag() {
       <Container className="pt-4">
         <MyBag />
       </Container>
-      <footer className="footer mt-5 py-3 bg-light">
-        <div className="container">
-          <span className="text-muted">By FikDev.</span>
-        </div>
-      </footer>
+      
     </>
   );
 }
