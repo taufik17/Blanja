@@ -6,7 +6,7 @@ import StyleMyBag from "../../styles/mybag.module.css";
 import { FiPlus, FiMinus } from "react-icons/fi";
 import Image from "next/image";
 
-function Detail() {
+function MyBag() {
   return (
     <>
       <h3>My Bag</h3>
@@ -157,4 +157,4 @@ function Detail() {
   );
 }
 
-export default Detail;
+export default MyBag;

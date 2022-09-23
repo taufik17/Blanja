@@ -1,20 +1,20 @@
-import React from 'react'
+import React from "react";
 import Head from "next/head";
 import { Container } from "react-bootstrap";
 import Navbar from "../components/organisms/navbar";
-import DetailProduct from "../components/organisms/detail";
+import MyBag from "../components/organisms/mybag";
 
-function Detail() {
+function Mybag() {
   return (
     <>
       <Head>
-        <title>Detail</title>
-        <meta name="description" content="Detail" />
+        <title>My Bag</title>
+        <meta name="description" content="My Bag" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Navbar />
       <Container className="pt-4">
-       <DetailProduct />
+        <MyBag />
       </Container>
       <footer className="footer mt-5 py-3 bg-light">
         <div className="container">
@@ -22,7 +22,7 @@ function Detail() {
         </div>
       </footer>
     </>
-  )
+  );
 }
 
-export default Detail
+export default Mybag;
