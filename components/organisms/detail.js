@@ -6,8 +6,33 @@ import HomeStyle from "../../styles/Home.module.css";
 import { FiPlus, FiMinus } from "react-icons/fi";
 import StyleMyBag from "../../styles/mybag.module.css";
 import StyleLogin from "../../styles/login.module.css";
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 function Detail() {
+  const images = [
+    {
+      original: "/image/satu.png",
+      thumbnail: "/image/satu.png",
+    },
+    {
+      original: "/image/dua.png",
+      thumbnail: "/image/dua.png",
+    },
+    {
+      original: "/image/tiga.png",
+      thumbnail: "/image/tiga.png",
+    },
+    {
+      original: "/image/empat.png",
+      thumbnail: "/image/empat.png",
+    },
+    {
+      original: "/image/lima.png",
+      thumbnail: "/image/lima.png",
+    },
+  ];
+
   const [black, setblack] = useState(false);
   const [red, setred] = useState(false);
   const [yellow, setyellow] = useState(false);
@@ -34,7 +59,9 @@ function Detail() {
         <Breadcrumb.Item active>T-Shirt</Breadcrumb.Item>
       </Breadcrumb>
       <div className="row mt-4">
-        <div className="col-4">preview gambar</div>
+        <div className="col-4">
+          <ImageGallery items={images} />
+        </div>
         <div className="col-8">
           <h5>Baju muslim pria</h5>
           <p className="mb-1">Zalora Cloth</p>

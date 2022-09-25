@@ -129,3 +129,7 @@ a {
 .breadcrumb-item + .breadcrumb-item::before {
   content: var(--bs-breadcrumb-divider, ">") !important; /* rtl: var(--bs-breadcrumb-divider, "/") */;
 }
+
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg {
+  height: 40px !important;
+}
